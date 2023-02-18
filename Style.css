@@ -1,0 +1,118 @@
+:root {
+    --StrongCyan: hsl(171, 66%, 44%);
+    --LightBlue: hsl(233, 100%, 69%);
+    --DarkGrayishBlue: hsl(210, 10%, 33%);
+    --GrayishBlue: hsl(201, 11%, 66%)
+}
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+header {
+    display: flex;
+    background-image:url(/images/bg-header-mobile.png);
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 6rem;
+}
+.header img {
+    display: block;
+}
+.tagline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: var(--DarkGrayishBlue);
+}
+.nowrap {
+    white-space: nowrap;
+}
+.information {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: var(--GrayishBlue);
+}
+.information p{
+    margin: 0;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+.buttonios {
+    margin: 0.5rem, 1rem;
+    padding: 8px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.125rem;
+    border-radius: 1.5rem;
+    background-color: var(--StrongCyan);
+    color: white;
+    font-weight: 600;
+    border-color: var(--StrongCyan);
+    width: 300px;
+}
+.buttonmac {
+    margin: 0.5rem, 1rem;
+    padding: 8px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.125rem;
+    border-radius: 1.5rem;
+    background-color: var(--LightBlue);
+    color: white;
+    font-weight: 600;
+    border-color: var(--LightBlue);
+    width: 300px;
+}
+.page2 {
+    margin-top: 10rem;
+}
+.image {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem 0rem;
+    margin-top: 3rem;
+}
+.imagecomputer {
+    width: 300px;
+    height: 250px;
+}
+.brand {
+    margin-top: 8rem;
+}
+.footer {
+    background-color: rgb(237, 237, 237);
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    color: var(--DarkGrayishBlue);
+    margin: 0;
+    margin-top: 8rem;
+}
+.links {
+    margin: 2rem;
+}
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
